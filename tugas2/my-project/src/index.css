@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: antiquewhite;
+    color: black; 
+}
+
+
+body.dark-mode {
+    background-color:rgb(37, 37, 53); 
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.dark-mode h2, .dark-mode h3 {
+    color: #40b964; 
+}
+
+p {
+    color: #000; 
+}
+
+.dark-mode p {
+    color: #e0e0e0; 
+}
+
+
+.bg-emerald-800 {
+    background-color:rgb(45, 76, 57); 
+}
+
+.dark-mode .bg-emerald-800 {
+    background-color: rgb(45, 76, 57) ;
+}
